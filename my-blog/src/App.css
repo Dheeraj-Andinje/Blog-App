@@ -1,0 +1,49 @@
+
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+/* Custom styling (Optional) */
+body {
+  @apply bg-gray-100 text-gray-800;
+}
+
+h1, h2, h3, h4, h5 {
+  @apply font-bold text-gray-900;
+}
+
+input, button {
+  @apply focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+/* Button Styles */
+.btn-primary {
+  @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600;
+}
+
+.btn-success {
+  @apply bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600;
+}
+
+.btn-danger {
+  @apply bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600;
+}
+
+/* Center Container */
+.container-center {
+  @apply flex items-center justify-center min-h-screen;
+}
+
+/* Card Box */
+.card {
+  @apply bg-white p-8 rounded shadow-md;
+}
+
+@tailwind utilities;
